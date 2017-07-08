@@ -10,6 +10,8 @@ import static org.junit.Assert.assertThat;
  */
 public class SampleAlgorithms {
 
+    // efficient iterative implementation
+    // O(N) time, O(1) space
     static int fib(int N) {
         if (N < 2) {
             return N;
